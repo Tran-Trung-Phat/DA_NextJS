@@ -34,3 +34,47 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+# 🛒 DAFrontend - E-commerce Web App
+
+This is a frontend project built with **Next.js, HTML, CSS, JavaScript**.  
+The application allows users to browse products, add to cart, and place orders.
+
+🔗 Live Demo: https://your-link-demo.vercel.app
+
+---
+
+## ✨ Features
+
+- Display product list
+- Product detail page
+- Add to cart
+- Remove/update cart
+- Checkout
+- Save data with LocalStorage
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js
+- JavaScript (ES6+)
+- HTML5, CSS3
+- Bootstrap
+
+---
+
+## 📸 Screenshots
+
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone project
+
+```bash
+git clone https://github.com/Tran-Trung-Phat/DA_NextJS.git
+cd DA_NextJS
