@@ -21,7 +21,6 @@ const cartSlice = createSlice({
     const spnew = action.payload;
     if (!spnew) return;
     if (!Array.isArray(state.sanpham)) state.sanpham = [];
-
     const spold = state.sanpham.find(sp => sp.id === Number(spnew.id) && sp.mau === spnew.mau && sp.size === spnew.size);
     //nếu khhong có sản phẩm trong giỏ hàng
     if(spold === undefined){
@@ -55,7 +54,6 @@ const cartSlice = createSlice({
     // xóa sản phẩm
     xoasanpham: (state, action) =>{
       if (!Array.isArray(state.sanpham)) state.sanpham = [];
-
       // Kiểm tra nếu payload là object chứa id, mau, size để xóa chính xác variant
       if (typeof action.payload === 'object' && action.payload.id) {
         const { id, mau, size } = action.payload;
