@@ -9,8 +9,8 @@ export default function Bot(){
       <div className="col-lg-4 col-md-6 col-sm-7">
         <div className="footer__about">
           <div className="footer__logo">
-            <Link href="./index.html">
-              <img src="img/logo.png" alt="" />
+            <Link href="/">
+              <img src="/img/logo.png" alt="Logo" />
             </Link>
           </div>
           <p>
@@ -19,19 +19,19 @@ export default function Bot(){
           </p>
           <div className="footer__payment">
             <Link href="#">
-              <img src="img/payment/payment-1.png" alt="" />
+              <img src="/img/payment/payment-1.png" alt="Payment" />
             </Link>
             <Link href="#">
-              <img src="img/payment/payment-2.png" alt="" />
+              <img src="/img/payment/payment-2.png" alt="Payment" />
             </Link>
             <Link href="#">
-              <img src="img/payment/payment-3.png" alt="" />
+              <img src="/img/payment/payment-3.png" alt="Payment" />
             </Link>
             <Link href="#">
-              <img src="img/payment/payment-4.png" alt="" />
+              <img src="/img/payment/payment-4.png" alt="Payment" />
             </Link>
             <Link href="#">
-              <img src="img/payment/payment-5.png" alt="" />
+              <img src="/img/payment/payment-5.png" alt="Payment" />
             </Link>
           </div>
         </div>

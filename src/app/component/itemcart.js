@@ -39,11 +39,11 @@ export default function ItemCart({ sanpham }) {
                   <div className="quantity">
                     <div className="pro-qty">
                     <span onClick={(e) => {
-                      if (sanpham.soluong > 1) tangGiamSoluong(e, sanpham.soluong - 1);
+                      if (sanpham.soluong > 1) tangGiamSoluong(e, -1);
                       else xoaSanPham(e);
                       }} className="dec qtybtn">-</span>
                       <input type="text" value={sanpham.soluong} readOnly />
-                    <span onClick={(e) =>tangGiamSoluong(e, sanpham.soluong + 1)} className="inc qtybtn">+</span>
+                    <span onClick={(e) =>tangGiamSoluong(e, 1)} className="inc qtybtn">+</span>
                     </div>
                   </div>
                 </td>

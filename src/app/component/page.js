@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import axios from 'axios';
 import Link from 'next/link';
-import Breadcrumb from '../../component/Breadcrumb';
+import Breadcrumb from './Breadcrumb';
 
 export default function ProductDetailsPage() {
     const { id } = useParams();

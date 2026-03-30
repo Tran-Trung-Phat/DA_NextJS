@@ -1,3 +1,4 @@
+'use client';
 import Link from "next/link";
 import { categories } from "../data";
 import { useSelector } from "react-redux";
@@ -31,8 +32,8 @@ export default function Top(){
       </li>
     </ul>
     <div className="offcanvas__logo">
-      <Link href="./index.html">
-        <img src="img/logo.png" alt="" />
+      <Link href="/">
+        <img src="/img/logo.png" alt="Logo" />
       </Link>
     </div>
     <div id="mobile-menu-wrap" />
@@ -48,8 +49,8 @@ export default function Top(){
       <div className="row">
         <div className="col-xl-3 col-lg-2">
           <div className="header__logo">
-            <Link href="./index.html">
-              <img src="img/logo.png" alt="" />
+            <Link href="/">
+              <img src="/img/logo.png" alt="Logo" />
             </Link>
           </div>
         </div>
@@ -60,14 +61,14 @@ export default function Top(){
                 <Link href="/">Home</Link>
               </li>
 
-              {categories.map((v,i)=>(i>1 && i<4)?  <li key={i} ><a href={v.slug}>{v.name}</a></li>:null)}
+              {categories.map((v,i)=>(i>1 && i<4)?  <li key={i}><Link href={v.slug}>{v.name}</Link></li>:null)}
                <li >
-                  <a href="/contact">Contact</a>
+                  <Link href="/contact">Contact</Link>
                   
                 </li>
 
                 <li >
-                  <a href="/shop">Shop</a>
+                  <Link href="/shop">Shop</Link>
                   
                 </li>
 

@@ -3,8 +3,8 @@
 
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { getInfo } from "../store/authslice";
-import { napGioHang } from "../store/cartSlice";
+import { getInfo } from "@/app/store/authslice";
+import { napGioHang } from "@/app/store/cartSlice";
 import { useCookies } from "react-cookie";
 
 export default function AppInit(){
